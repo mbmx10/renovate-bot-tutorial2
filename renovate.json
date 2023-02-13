@@ -10,7 +10,7 @@
       "dependencyDashboardApproval": true,
     },
     {
-      "matchPaths": ["separate-module"],
+      "matchPaths": ["/separate-module/**/*"],
       "additionalBranchPrefix": "separate-module/",
     }
   ]
