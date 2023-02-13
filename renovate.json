@@ -12,6 +12,7 @@
     {
       "matchPaths": ["separate-module/**"],
       "additionalBranchPrefix": "separate-module/",
+      "commitMessagePrefix": "frontend",
     }
   ]
 }
