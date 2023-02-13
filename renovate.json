@@ -11,7 +11,7 @@
     },
     {
       "matchPaths": ["separate-module"],
-      "additionalBranchPrefix": "separate-module",
+      "additionalBranchPrefix": "separate-module/",
     }
   ]
 }
