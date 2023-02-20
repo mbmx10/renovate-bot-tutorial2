@@ -7,13 +7,13 @@
   "packageRules": [
     {
       "matchPaths": ["*"],
-      "separateMajorMinor": true,
-      "separateMultipleMajor": true
+      "separateMajorMinor": true
     },
     {
       "matchPaths": ["frontend/**"],
-      "additionalBranchPrefix": "frontend/{{{Major}}}--{{Major}}-{Major}-{newVersion}-asas-{{newVersion}}",
-      "commitMessageSuffix": "(frontend)"
+      "additionalBranchPrefix": "frontend/",
+      "commitMessageSuffix": "(frontend)",
+      "separateMultipleMajor": true
     }
   ]
 }
