@@ -11,12 +11,8 @@
       "separateMultipleMajor": true
     },
     {
-      "matchUpdateTypes": ["major"],
-      "additionalBranchPrefix": "{Major}"
-    },
-    {
       "matchPaths": ["frontend/**"],
-      "additionalBranchPrefix": "frontend/{{Major}}",
+      "additionalBranchPrefix": "frontend/{{{Major}}}--{{Major}}-{Major}-{newVersion}-asas-{{newVersion}}",
       "commitMessageSuffix": "(frontend)"
     }
   ]
