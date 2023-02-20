@@ -16,7 +16,7 @@
     },
     {
       "matchPaths": ["frontend/**"],
-      "additionalBranchPrefix": "frontend/",
+      "additionalBranchPrefix": "frontend/{{Major}}",
       "commitMessageSuffix": "(frontend)"
     }
   ]
