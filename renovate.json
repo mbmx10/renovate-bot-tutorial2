@@ -6,9 +6,10 @@
   "prHourlyLimit": 3,
   "packageRules": [
     {
-      "matchUpdateTypes": ["major"],
-      "dependencyDashboardApproval": true,
-    },
+      "matchPaths": ["*"],
+      "separateMajorMinor": true,
+      "separateMultipleMajor": true
+    }
     {
       "matchPaths": ["separate-module/**"],
       "additionalBranchPrefix": "separate-module/",
