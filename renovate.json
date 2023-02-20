@@ -11,9 +11,9 @@
       "separateMultipleMajor": true
     },
     {
-      "matchPaths": ["separate-module/**"],
-      "additionalBranchPrefix": "separate-module/",
-      "commitMessageSuffix": "(frontend)",
+      "matchPaths": ["frontend/**"],
+      "additionalBranchPrefix": "frontend/",
+      "commitMessageSuffix": "(frontend)"
     }
   ]
 }
