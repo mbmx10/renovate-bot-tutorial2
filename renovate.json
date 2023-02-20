@@ -12,7 +12,7 @@
     },
     {
       "matchUpdateTypes": ["major"],
-      "additionalBranchSuffix": "{Major}"
+      "additionalBranchPrefix": "{Major}"
     },
     {
       "matchPaths": ["frontend/**"],
