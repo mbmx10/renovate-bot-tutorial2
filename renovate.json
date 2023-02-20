@@ -9,7 +9,7 @@
       "matchPaths": ["*"],
       "separateMajorMinor": true,
       "separateMultipleMajor": true
-    }
+    },
     {
       "matchPaths": ["separate-module/**"],
       "additionalBranchPrefix": "separate-module/",
