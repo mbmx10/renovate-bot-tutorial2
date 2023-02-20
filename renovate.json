@@ -8,8 +8,11 @@
     {
       "matchPaths": ["*"],
       "separateMajorMinor": true,
-      "separateMultipleMajor": true,
-      "rangeStrategy": "pin"
+      "separateMultipleMajor": true
+    },
+    {
+      "matchUpdateTypes": ["major"],
+      "additionalBranchSuffix": "{Major}"
     },
     {
       "matchPaths": ["frontend/**"],
