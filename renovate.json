@@ -1,20 +1,16 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:base"
+    "config:base",
+    ":separateMajorReleases",
+    ":separateMultipleMajorReleases"
   ],
   "prHourlyLimit": 10,
   "packageRules": [
     {
-      "matchPaths": ["*"],
-      "separateMajorMinor": true,
-      "labels": ["firstMatchPaths"]
-    },
-    {
       "matchPaths": ["frontend/**"],
       "additionalBranchPrefix": "frontend/",
-      "commitMessageSuffix": "(frontend)",
-      "separateMultipleMajor": true
+      "commitMessageSuffix": "(frontend)"
     }
   ]
 }
