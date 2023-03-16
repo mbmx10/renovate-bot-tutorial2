@@ -5,7 +5,7 @@
     ":separateMultipleMajorReleases",
     ":separateMajorReleases"
   ],
-  "prHourlyLimit": 10,
+  "prHourlyLimit": 13,
   "packageRules": [
     {
       "matchPaths": ["frontend/**"],
