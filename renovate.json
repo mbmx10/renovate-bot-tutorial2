@@ -9,7 +9,8 @@
     {
       "matchPaths": ["frontend/**"],
       "additionalBranchPrefix": "frontend/",
-      "commitMessageSuffix": "(frontend)"
+      "commitMessageSuffix": "(frontend)",
+      "rangeStrategy": "bump"
     }
   ]
 }
