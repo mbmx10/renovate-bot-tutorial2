@@ -11,7 +11,7 @@
       "matchPaths": ["frontend/**"],
       "additionalBranchPrefix": "frontend/",
       "commitMessageSuffix": "(frontend)",
-      "rangeStrategy": "bump"
+      "rangeStrategy": "pin"
     }
   ]
 }
