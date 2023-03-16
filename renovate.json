@@ -1,0 +1,17 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base",
+    ":separateMultipleMajorReleases",
+    ":separateMajorReleases"
+  ],
+  "prHourlyLimit": 6,
+  "packageRules": [
+    {
+      "matchPaths": ["frontend/**"],
+      "additionalBranchPrefix": "frontend/",
+      "commitMessageSuffix": "(frontend)",
+      "rangeStrategy": "pin"
+    }
+  ]
+}
