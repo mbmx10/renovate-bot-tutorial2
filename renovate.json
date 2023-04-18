@@ -12,7 +12,7 @@
       "additionalBranchPrefix": "frontend/",
       "commitMessageSuffix": "(frontend)",
       "rangeStrategy": "pin",
-      "schedule": "on monday"
+      "schedule": ["on monday and wednesday", "on thursday and friday and sunday"]
     }
   ]
 }
