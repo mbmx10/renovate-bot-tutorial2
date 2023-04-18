@@ -5,14 +5,14 @@
     ":separateMultipleMajorReleases",
     ":separateMajorReleases"
   ],
-  "prHourlyLimit": 6,
+  "prHourlyLimit": 15,
   "packageRules": [
     {
       "matchPaths": ["frontend/**"],
       "additionalBranchPrefix": "frontend/",
       "commitMessageSuffix": "(frontend)",
       "rangeStrategy": "pin",
-      "schedule": ["on monday and wednesday", "on thursday and friday and sunday"]
+      "schedule": ["after 3am before 9pm on tuesday - friday"]
     }
   ]
 }
