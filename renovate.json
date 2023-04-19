@@ -9,10 +9,17 @@
   "packageRules": [
     {
       "matchPaths": ["frontend/**"],
-      "additionalBranchPrefix": "frontend/",
-      "commitMessageSuffix": "(frontend)",
+      "additionalBranchPrefix": "frontend-major/",
+      "commitMessageSuffix": "(frontend major)",
       "rangeStrategy": "pin",
-      "schedule": ["after 3am before 9pm on tuesday - friday"]
+      "matchUpdateTypes": ["major"]
+    },
+    {
+      "matchPaths": ["frontend/**"],
+      "additionalBranchPrefix": "frontend-non-major/",
+      "commitMessageSuffix": "(frontend non-major)",
+      "rangeStrategy": "pin",
+      "matchUpdateTypes": ["patch", "minor"]
     }
   ]
 }
