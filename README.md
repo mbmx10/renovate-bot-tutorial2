@@ -1,5 +1,7 @@
 # Renovate - Hands On Tutorial
 
+Edit: visit https://app.renovatebot.com/dashboard to see runs and logs
+
 ## Introduction
 
 Welcome to the Renovate hands-on tutorial.
