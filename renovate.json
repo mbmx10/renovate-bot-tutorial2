@@ -11,15 +11,15 @@
       "matchPaths": ["frontend/**"],
       "additionalBranchPrefix": "frontend-major/",
       "commitMessageSuffix": "(frontend major)",
-      "rangeStrategy": "pin",
       "matchUpdateTypes": ["major"]
     },
     {
       "matchPaths": ["frontend/**"],
       "additionalBranchPrefix": "frontend-non-major/",
       "commitMessageSuffix": "(frontend non-major)",
-      "rangeStrategy": "pin",
-      "matchUpdateTypes": ["patch", "minor"]
+      "matchUpdateTypes": ["patch", "minor"],
+      "groupName": "non major",
+      "groupSlug": "non-major",
     }
   ]
 }
