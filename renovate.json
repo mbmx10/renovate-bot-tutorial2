@@ -24,7 +24,7 @@
     {
       "matchPaths": ["frontend/**"],
       "additionalBranchPrefix": "frontend-non-major/",
-      "commitMessageSuffix": "(frontend non-major)",
+      "commitMessageSuffix": "(avoided frontend non-major)",
       "matchUpdateTypes": ["patch", "minor"],
       "matchPackageNames": ["@date-io/moment"],
       "groupName": "avoided non major",
