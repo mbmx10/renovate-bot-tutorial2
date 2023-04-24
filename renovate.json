@@ -20,6 +20,15 @@
       "matchUpdateTypes": ["patch", "minor"],
       "groupName": "non major",
       "groupSlug": "non-major",
+    },
+    {
+      "matchPaths": ["frontend/**"],
+      "additionalBranchPrefix": "frontend-non-major/",
+      "commitMessageSuffix": "(frontend non-major)",
+      "matchUpdateTypes": ["patch", "minor"],
+      "matchPackageNames": ["@date-io/moment"],
+      "groupName": "avoided non major",
+      "groupSlug": "avoided-non-major",
     }
   ]
 }
