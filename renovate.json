@@ -5,6 +5,7 @@
     ":separateMultipleMajorReleases",
     ":separateMajorReleases"
   ],
+  "separateMinorPatch": true,
   "prHourlyLimit": 15,
   "packageRules": [
     {
@@ -17,9 +18,15 @@
       "matchPaths": ["frontend/**"],
       "additionalBranchPrefix": "frontend-non-major/",
       "commitMessageSuffix": "(frontend non-major)",
-      "matchUpdateTypes": ["patch", "minor"],
-      "groupName": "non major",
-      "groupSlug": "non-major",
+      "matchUpdateTypes": ["minor"],
+      "groupName": "frontend minor",
+    },
+    {
+      "matchPaths": ["frontend/**"],
+      "additionalBranchPrefix": "frontend-non-major/",
+      "commitMessageSuffix": "(frontend non-major)",
+      "matchUpdateTypes": ["patch"],
+      "groupName": "frontend patches",
     },
     {
       "matchPaths": ["frontend/**"],
@@ -28,7 +35,6 @@
       "matchUpdateTypes": ["patch", "minor"],
       "matchPackageNames": ["@date-io/moment"],
       "groupName": "avoided non major",
-      "groupSlug": "avoided-non-major",
     }
   ]
 }
