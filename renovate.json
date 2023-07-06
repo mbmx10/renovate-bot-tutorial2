@@ -30,11 +30,19 @@
     },
     {
       "matchPaths": ["frontend/**"],
-      "additionalBranchPrefix": "frontend-non-major/",
-      "commitMessageSuffix": "(avoided frontend non-major)",
-      "matchUpdateTypes": ["patch", "minor"],
+      "additionalBranchPrefix": "noop-minor/",
+      "commitMessageSuffix": "(noop minor)",
+      "matchUpdateTypes": [""minor"],
       "matchPackageNames": ["@date-io/moment"],
-      "groupName": "avoided non major",
+      "groupName": "noop minor",
+    },
+        {
+      "matchPaths": ["frontend/**"],
+      "additionalBranchPrefix": "noop-patches/",
+      "commitMessageSuffix": "(noop-patches)",
+      "matchUpdateTypes": ["patch"],
+      "matchPackageNames": ["@date-io/moment"],
+      "groupName": "noop-patches",
     }
   ]
 }
