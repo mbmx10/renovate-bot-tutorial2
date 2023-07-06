@@ -30,7 +30,7 @@
     },
     {
       "matchPaths": ["frontend/**"],
-      "additionalBranchPrefix": "noop-minor/",
+      "additionalBranchPrefix": "noop/",
       "commitMessageSuffix": "(noop minor)",
       "matchUpdateTypes": ["minor"],
       "matchPackageNames": ["@date-io/moment"],
@@ -38,7 +38,7 @@
     },
     {
       "matchPaths": ["frontend/**"],
-      "additionalBranchPrefix": "noop-patches/",
+      "additionalBranchPrefix": "noop/",
       "commitMessageSuffix": "(noop-patches)",
       "matchUpdateTypes": ["patch"],
       "matchPackageNames": ["@date-io/moment"],
