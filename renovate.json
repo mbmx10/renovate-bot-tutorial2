@@ -19,14 +19,14 @@
       "additionalBranchPrefix": "frontend-minor/",
       "commitMessageSuffix": "(frontend minor)",
       "matchUpdateTypes": ["minor"],
-      "groupName": "frontend minor",
+      "groupName": "frontend minor"
     },
     {
       "matchPaths": ["frontend/**"],
       "additionalBranchPrefix": "frontend-patches/",
       "commitMessageSuffix": "(frontend patches)",
       "matchUpdateTypes": ["patch"],
-      "groupName": "frontend patches",
+      "groupName": "frontend patches"
     },
     {
       "matchPaths": ["frontend/**"],
@@ -34,15 +34,15 @@
       "commitMessageSuffix": "(noop minor)",
       "matchUpdateTypes": ["minor"],
       "matchPackageNames": ["@date-io/moment"],
-      "groupName": "noop minor",
+      "groupName": "noop minor"
     },
-        {
+    {
       "matchPaths": ["frontend/**"],
       "additionalBranchPrefix": "noop-patches/",
       "commitMessageSuffix": "(noop-patches)",
       "matchUpdateTypes": ["patch"],
       "matchPackageNames": ["@date-io/moment"],
-      "groupName": "noop-patches",
+      "groupName": "noop-patches"
     }
   ]
 }
