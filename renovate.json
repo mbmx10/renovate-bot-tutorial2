@@ -32,7 +32,7 @@
       "matchPaths": ["frontend/**"],
       "additionalBranchPrefix": "noop-minor/",
       "commitMessageSuffix": "(noop minor)",
-      "matchUpdateTypes": [""minor"],
+      "matchUpdateTypes": ["minor"],
       "matchPackageNames": ["@date-io/moment"],
       "groupName": "noop minor",
     },
