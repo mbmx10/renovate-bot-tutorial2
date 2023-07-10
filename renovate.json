@@ -30,16 +30,16 @@
     },
     {
       "matchPaths": ["frontend/**"],
-      "additionalBranchPrefix": "same-minor-and-patch/",
-      "commitMessageSuffix": ""same-minor-and-patch",
+      "additionalBranchPrefix": "same-value-for-minor-and-patch/",
+      "commitMessageSuffix": "same-value-for-minor-and-patch",
       "matchUpdateTypes": ["minor"],
       "matchPackageNames": ["@date-io/moment"],
       "groupName": "noop minor"
     },
     {
       "matchPaths": ["frontend/**"],
-      "additionalBranchPrefix": "same-minor-and-patch/",
-      "commitMessageSuffix": ""same-minor-and-patch",
+      "additionalBranchPrefix": "same-value-for-minor-and-patch/",
+      "commitMessageSuffix": "same-value-for-minor-and-patch",
       "matchUpdateTypes": ["patch"],
       "matchPackageNames": ["@date-io/moment"],
       "groupName": "noop-patches"
